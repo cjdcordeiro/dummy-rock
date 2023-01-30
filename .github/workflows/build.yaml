@@ -14,7 +14,6 @@ jobs:
         uses: canonical/craft-actions/rockcraft-pack@main
         id: rockcraft
         with:
-          path: tests
           verbosity: debug
       - name: Upload ROCK
         uses: actions/upload-artifact@v3
